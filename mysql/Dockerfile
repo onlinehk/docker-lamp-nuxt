@@ -1,3 +1,3 @@
-FROM mysql:5.7
+FROM mysql:8.0
 
 ADD ./sql/testdb.sql /docker-entrypoint-initdb.d
